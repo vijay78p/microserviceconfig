@@ -1,8 +1,6 @@
- 
 eureka:
   instance:
     prefer-ip-address: true
-    instance-id: ${spring.application.name}:${random.uuid}
     hostname: localhost
   client:
     register-with-eureka: true
